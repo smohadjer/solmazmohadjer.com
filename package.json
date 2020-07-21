@@ -1,0 +1,39 @@
+{
+	"name": "boilerplate",
+	"version": "1.0.0",
+	"description": "Boilerplate for Web projects",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/smohadjer/boilerplate"
+	},
+	"license": "MIT",
+	"scripts": {
+		"precopy": "node bin/clean.js",
+		"copy": "node bin/copytmp.js",
+		"sass": "node-sass app/resources/css -o .tmp/resources/css",
+		"hbs": "handlebars -e hbs -n myApp.templates app/resources/hbs -f ./.tmp/resources/js/handlebars.templates.js",
+		"watch": "node bin/watch-css.js",
+		"serve": "npm run copy && npm run sass && npm run hbs",
+		"start": "npm run serve && npm run watch",
+		"build": "npm run serve && rollup -c && node bin/copydist.js && node bin/useref.js"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.6.2",
+		"@babel/preset-env": "^7.6.2",
+		"concat": "^1.0.3",
+		"fs-extra": "^8.1.0",
+		"handlebars": "^4.4.3",
+		"node-sass": "^4.12.0",
+		"rimraf": "latest",
+		"rollup": "^1.25.1",
+		"rollup-plugin-babel": "^4.3.3",
+		"useref": "^1.4.2"
+	},
+	"dependencies": {
+		"hamburgers": "0.9.3",
+		"helpers": "git+https://github.com/smohadjer/helpers.git"
+	},
+	"engines": {
+		"node": ">=10.16.3"
+	}
+}
