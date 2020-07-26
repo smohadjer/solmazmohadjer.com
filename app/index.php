@@ -2,8 +2,8 @@
 <html class="no-js" lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Solmaz Mohadjer</title>
-		<meta name="description" content="Website for Solmaz Mohadjer">
+		<title>Boilerplate for responsive Websites</title>
+		<meta name="description" content="Boilerplate for responsvie Websites">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!-- build:css resources/css/styles.min.css -->
 		<link rel="stylesheet" href="../.tmp/resources/css/helper.css">
@@ -32,31 +32,9 @@
 			</nav>
 		</header>
 		<main>
-			<article>
-				<h1>Boilerplate for building responsive Websites (h1)</h1>
-				<h2>Features: (h2)</h2>
-				<ul>
-					<li>Responsive layout</li>
-					<li>Auto deployment of content to production server</li>
-					<li>Supports Sass</li>
-					<li>Validates and minifies CSS and JavaScript resources</li>
-					<li>Precompiles Handlebars templates</li>
-					<li>Fetches js/css dependencies via gulp-npm-dist</li>
-				</ul>
-				<p>Learn more: <a href="https://github.com/smohadjer/boilerplate">https://github.com/smohadjer/boilerplate</a>
-				<h3>A responsive image via srcset attribute (h3)</h3>
-				<figure>
-					<img src="assets/small/1.jpg" srcset="assets/1.jpg 1920w, assets/small/1.jpg 1200w" sizes="100vw" alt="" />
-					<figcaption>Example of caption...</figcaption>
-				</figure>
-				<p>Example of a paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				<p>Another paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				<div class="handlebars">
-					<!-- content is inserted via js -->
-				</div>
-			</article>
+			<?php include('content/html/index.html'); ?>
 		</main>
-		<footer>Copyright 2018</footer>
+		<footer>Copyright 2020</footer>
 		<script>
 			var myApp = {};
 		</script>
