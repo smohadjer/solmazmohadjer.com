@@ -1,4 +1,4 @@
-<?php $pageId = 'home' ?>
+<?php $pageId = 'research' ?>
 <!doctype html>
 <html lang="en">
 	<head>
@@ -13,7 +13,7 @@
 	</head>
 	<body class="<?php echo $pageId ?>">
 		<?php include('include/header.php'); ?>
-		<?php include('content/html/home.html'); ?>
+		<?php include('content/html/research.html'); ?>
 		</main>
 		<?php include('include/footer.html'); ?>
 		<!-- build:js({.tmp,app}) resources/js/scripts.min.js -->

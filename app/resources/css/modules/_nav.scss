@@ -11,6 +11,8 @@ nav {
 	}
 
 	@media (min-width: 768px) {
+		margin-top: 9px;
+
 		.js & {
 			max-height: none !important; //used !important to overwrite max-height set by js
 		}
@@ -21,11 +23,24 @@ nav {
 		margin: 0;
 		padding: 0;
 
+		@media (max-width: 767px) {
+			margin-bottom: 20px;
+		}
+
 		li {
 			line-height: 1.5;
+			color: $bronze;
+
+			a, a:visited {
+				color: $blue;
+			}
+
+			a.selected {
+				color: $bronze !important;
+			}
 
 			@media (max-width: 767px) {
-				border-bottom: solid 1px #ccc;
+				border-bottom: solid 1px $bronze;
 				line-height: 2;
 
 				&:last-child {

@@ -1,13 +1,16 @@
-header .hamburger {
+.header .hamburger {
 	vertical-align: middle;
 	padding: 0;
-
-	.no-js & {
-		display: none;
-	}
+	//padding-bottom: 20px;
 
 	&:focus {
 		outline: none;
+	}
+
+	span.hamburger-inner {
+		&, &::before, &::after {
+			background-color: $blue;
+		}
 	}
 
 	&:hover {

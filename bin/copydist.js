@@ -16,7 +16,7 @@ copyFile('app/apple-touch-icon.png', 'dist/apple-touch-icon.png');
 copyFile('app/.htaccess', 'dist/.htaccess');
 
 copyFolder('app/assets', 'dist/assets');
-copyFolder('app/includes', 'dist/includes');
+copyFolder('app/include', 'dist/include');
 copyFolder('app/content', 'dist/content');
 
 function copyFile(source, destination) {
