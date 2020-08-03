@@ -15,7 +15,7 @@
 		<?php include('include/header.php'); ?>
 		<?php include('content/html/research.html'); ?>
 		</main>
-		<?php include('include/footer.html'); ?>
+		<?php include('content/html/footer.html'); ?>
 		<!-- build:js({.tmp,app}) resources/js/scripts.min.js -->
 		<script src="../.tmp/resources/vendor/handlebars/dist/handlebars.js"></script>
 		<script src="../.tmp/resources/js/handlebars.templates.js"></script>

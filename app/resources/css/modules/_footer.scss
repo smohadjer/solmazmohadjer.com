@@ -1,16 +1,11 @@
 .footer {
-	border-top: solid 3px $bronze;
+	border-top: solid 1px $bronze;
 	padding: 15px 20px;
 	margin: 40px auto 0;
 	max-width: 1280px;	
 
 	a {
 		text-decoration: none;
-	}
-
-	@media (min-width: 1280px) {
-		padding-left: 0;
-		padding-right: 0;
 	}
 
 	ul {
