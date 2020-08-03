@@ -73,6 +73,7 @@ define('DELETE_FILES', false);
 define('EXCLUDE', serialize(array(
 	'/.*',
 	'/bin',
+	'/assets-original',
 	'/*.json',
 	'/*.md',
 	'/*.js',
