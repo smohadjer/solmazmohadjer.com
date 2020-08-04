@@ -7,6 +7,7 @@
 		<?php include('include/meta.html'); ?>
 		<!-- build:css({.tmp,app}) resources/css/styles.min.css -->
 		<link rel="stylesheet" href="../.tmp/resources/css/helper.css">
+		<link rel="stylesheet" href="../.tmp/resources/css/hamburgers.css">
 		<link rel="stylesheet" href="../.tmp/resources/css/styles.css">
 		<!-- endbuild -->
 	</head>
