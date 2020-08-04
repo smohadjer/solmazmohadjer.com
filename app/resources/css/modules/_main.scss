@@ -22,6 +22,12 @@ figure {
 	}
 }
 
+figure.content-image {
+	width: 50%;
+	float: right;
+	margin: 1em 0 2em 2em;
+}
+
 main > article {
 	padding: 0 20px;
 

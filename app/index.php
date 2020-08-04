@@ -6,8 +6,7 @@
 		<?php include('content/title.html'); ?>
 		<?php include('include/meta.html'); ?>
 		<!-- build:css({.tmp,app}) resources/css/styles.min.css -->
-		<link rel="stylesheet" href="../.tmp/resources/vendor/helpers/dist/helper.css">
-		<link rel="stylesheet" href="../.tmp/resources/vendor/hamburgers/dist/hamburgers.css">
+		<link rel="stylesheet" href="../.tmp/resources/css/helper.css">
 		<link rel="stylesheet" href="../.tmp/resources/css/styles.css">
 		<!-- endbuild -->
 	</head>
@@ -16,11 +15,13 @@
 		<?php include('content/html/home.html'); ?>
 		</main>
 		<?php include('content/html/footer.html'); ?>
-		<!-- build:js({.tmp,app}) resources/js/scripts.min.js -->
-		<script src="../.tmp/resources/vendor/handlebars/dist/handlebars.js"></script>
+		<script>
+			var myApp = {};
+		</script>
+		<!-- build:js({.tmp,app}) resources/js/bundle.js -->
+		<script src="../.tmp/resources/js/handlebars.runtime.js"></script>
 		<script src="../.tmp/resources/js/handlebars.templates.js"></script>
-		<script src="resources/js/nav.js"></script>
-		<script src="resources/js/main.js"></script>
+		<script <script type="module" src="resources/js/main.js"></script>
 		<!-- endbuild -->
 	</body>
 </html>
