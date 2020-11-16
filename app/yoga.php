@@ -1,2 +1,4 @@
-header("Location: http://yoga.solmazmohadjer.com/");
-die();
+<?php
+	header("Location: http://yoga.solmazmohadjer.com/");
+	die();
+?>
