@@ -18,16 +18,16 @@
 		"build": "npm run serve && rollup -c && node bin/copydist.js && node bin/useref.js"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.6.2",
-		"@babel/preset-env": "^7.6.2",
+		"@babel/core": "^7.14.2",
+		"@babel/preset-env": "^7.14.2",
 		"concat": "^1.0.3",
 		"fs-extra": "^8.1.0",
 		"handlebars": "^4.7.7",
 		"node-sass": "^4.14.1",
 		"rimraf": "latest",
-		"rollup": "^1.25.1",
-		"rollup-plugin-babel": "^4.3.3",
-		"useref": "^1.4.2"
+		"rollup": "^2.48.0",
+		"@rollup/plugin-babel": "^5.3.0",
+		"useref": "^1.4.3"
 	},
 	"dependencies": {
 		"hamburgers": "0.9.3",

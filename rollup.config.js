@@ -1,6 +1,6 @@
 // rollup.config.js
 
-import babel from 'rollup-plugin-babel';
+import babel from '@rollup/plugin-babel';
 
 export default {
 	input: 'app/resources/js/main.js',
