@@ -49,7 +49,5 @@ ready(function() {
 
 	if (aside) {
 		aside.innerHTML = html;
-	} else {
-		console.log('aside not found!');
 	}
 });
