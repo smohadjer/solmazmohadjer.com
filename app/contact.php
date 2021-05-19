@@ -3,11 +3,10 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<?php include('content/title.html'); ?>
-		<?php include('include/meta.html'); ?>
+		<?php include('content/meta.html'); ?>
 		<!-- build:css({.tmp,app}) resources/css/styles.min.css -->
-		<link rel="stylesheet" href="../.tmp/resources/vendor/helpers/dist/helper.css">
-		<link rel="stylesheet" href="../.tmp/resources/vendor/hamburgers/dist/hamburgers.css">
+		<link rel="stylesheet" href="../.tmp/resources/css/helper.css">
+		<link rel="stylesheet" href="../.tmp/resources/css/hamburgers.css">
 		<link rel="stylesheet" href="../.tmp/resources/css/styles.css">
 		<!-- endbuild -->
 	</head>
