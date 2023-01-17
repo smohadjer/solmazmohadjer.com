@@ -7,5 +7,11 @@
 		"js": [
 			"node_modules/handlebars/dist/handlebars.runtime.js"
 		]
-	}
+	},
+	"pages": [
+		{
+			"source": "app/content",
+			"target": "public"
+		}
+	]
 }
